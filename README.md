@@ -1,11 +1,15 @@
 # LBE NCC Final Project
 
+<div align=center>
+
 | Nama | NRP | 
 | :--- | :--- |
 | Khumaidy Syafiq El Maududy | 5025251012 |
 | Agile Octa Agrakha Handrian | 5025251010 |
 | Ahmad Farras Favian Al Efasi | 5025251005 |
 | Hussein Mohammad Mahsun | 5025251170 |
+
+</div>
 
 * **Load Balancer Public IP:** `http://4.147.81.78`
 
@@ -33,7 +37,7 @@ docker build -t portfolio-app ./app
 sudo docker run -d -p 80:80 --name portfolio --restart always portfolio-app
 ```
 
-### Result
+### Evidence of Traffic Distribution
 
 <img width="1013" height="566" alt="Screenshot 2026-09-23 at 5 25 17 PM" src="https://github.com/user-attachments/assets/fb215b38-2059-4d47-bbe2-ee0df35d4ab2" />
 
